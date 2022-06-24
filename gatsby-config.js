@@ -1,34 +1,30 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Starter',
-    siteDescription: 'Starter for Gatsby Theme Chronoblog',
+    siteTitle: 'Mujahids personal corner of the internet',
+    siteDescription: 'Personal website that belongs to a solidity engineer who lives in Kano, Nigeria.',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://chronoblog.now.sh/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    author: 'Mujahid Bappai', // for example - 'Ivan Ganev'
+    authorDescription: 'A solidity engineer writing well documented smart contracts on the ethereums blockchain', // short text about the author
     avatar: '/avatar.jpg',
-    twitterSite: '', // website account on twitter
-    twitterCreator: '', // creator account on twitter
+    twitterSite: 'mbappaicom', // website account on twitter
+    twitterCreator: 'Mbappai', // creator account on twitter
     social: [
       {
         icon: `at`,
-        url: `mailto:mymail@mail.com`,
+        url: `mailto:mujahid.bappai@yahoo.com`,
       },
       {
         icon: `twitter`,
-        url: `https://twitter.com/ganevru`,
+        url: `https://twitter.com/mbappai`,
       },
       {
         icon: `github`,
-        url: `https://github.com/Chronoblog/gatsby-theme-chronoblog`,
-      },
-      {
-        icon: `node-js`,
-        url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`,
-      },
+        url: `https://github.com/mbappai`,
+      }
     ],
   },
   plugins: [
@@ -46,6 +42,7 @@ module.exports = {
           // global settings for feed items
           limit: 50,
           yearSeparator: true,
+          itemsFormat: `compact`,
           yearSeparatorSkipFirst: true,
           contentTypes: {
             links: {
