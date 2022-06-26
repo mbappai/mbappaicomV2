@@ -54,6 +54,7 @@
     }
   },
   "dependencies": {
+    "@fontsource/ibm-plex-sans": "^4.5.11",
     "gatsby": "^2.23.3",
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-google-analytics": "^2.1.23",
