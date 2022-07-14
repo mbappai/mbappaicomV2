@@ -45,7 +45,8 @@ export default {
     styles: {
       ...chronoblogTheme.styles,
       p: {
-        fontSize: [1]
+        fontSize: [1],
+        color: 'red'
       }
     }
   }
