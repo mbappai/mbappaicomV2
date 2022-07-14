@@ -54,7 +54,7 @@ The kongz contract chiefly contains 5 key functionalities
 
 At the start of the contract, the contract owner starts by minting 3 genesis tokens for themselves as seen in the snippet below
 
-```solidity
+```sol
 contract Kongz {
 ... 
 
@@ -184,6 +184,7 @@ I am still yet to fully understand what happens after the gene of a kong gets ch
 Seeing as the first generation of kongz were created and stored directly on Opensea, the team behind cyberkongz decided to migrate all of their tokens from Opensea to their own smart-contracts. The migration of tokens created and stored directly on Opensea to a smart-contract is what is known as — *ascending* 
 
 ```solidity
+
 function ascend(
 uint256 _tokenId,
 uint256 _genes, 

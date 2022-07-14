@@ -44,10 +44,7 @@ export default {
     monospace: 'Menlo, monospace',
     styles: {
       ...chronoblogTheme.styles,
-      p: {
-        fontSize: [1],
-        color: 'red'
-      }
+      
     }
   }
 };
